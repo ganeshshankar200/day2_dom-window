@@ -1,0 +1,17 @@
+window object model 
+
+* The Browser Object Model contains objects that represent the current browser window or tab
+* The topmost object in the BOM is the window object representing the window or tab
+* Window object has properties like browser history, location and the device’s screen
+* It is the top most object and outermost element of the object hierarchy
+* In case of multi tab browser, a window object represents a single tab, but some of its properties like innerHeight                          innerWidth and methods like resizeTo() will affect the whole browser window
+
+Document Object Model
+
+* When a web page is loaded, the browser creates a Document Object Model of the page
+* The document object represents the whole html document as a tree of Objects html head body and other html tags
+* It is the root element that represents the html document
+* Each html document that gets loaded into a window becomes a document object
+* The document contains the contents of the page Using document object JavaScript can modify add and delete the html elements attributes CSS styles in the page
+* You can access a document object either using window document property or using document object directly as window is global object
+* The other major difference is that both window object and document object have properties and methods
